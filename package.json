@@ -1,0 +1,43 @@
+{
+  "name": "ui-components-qs-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@account-kit/core": "^4.0.0-beta.0",
+    "@account-kit/infra": "^4.0.0-beta.0",
+    "@account-kit/react": "^4.0.0-beta.0",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@tanstack/react-query": "^5.50.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "encoding": "^0.1.13",
+    "lottie-web": "^5.12.2",
+    "lucide-react": "^0.445.0",
+    "next": "14.2.4",
+    "pino-pretty": "^11.2.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.53.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "2.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}
